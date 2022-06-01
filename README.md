@@ -14,7 +14,6 @@ laravel-version is **5**
 
 In order to add Laravel Firebase Sync to your project, just add
 
-    ```
     "repositories": [
         {
             "type":"package",
@@ -32,7 +31,6 @@ In order to add Laravel Firebase Sync to your project, just add
     "require": {
         "saitarun135/laravel-firebase-sync": "master"
     },
-    ```
 
 to your composer.json. Then run `composer install` or `composer update` or `composer update --prefer-source`.
 
