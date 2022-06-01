@@ -6,7 +6,8 @@
 
 - [Installation](#installation)
 - [Usage](#usage)
-
+- [Configuration](#Configuration)
+- [Synchronizing models](#Synchronizing models)
 <a name="installation" />
 
 ## Installation
