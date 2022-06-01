@@ -37,8 +37,8 @@ to your composer.json. Then run `composer install` or `composer update` or `comp
 <a name="usage" />
 
 ## Usage
+Note:- it will not support `insert` for example **Model::insert($data)**
 ```
-//it supports  create ,update,get,remove/delete
 $data = $request->all();
 Model::create($data);
 ```
