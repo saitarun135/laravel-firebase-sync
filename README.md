@@ -44,6 +44,9 @@ This package requires you to add the following section to your `config/services.
 ```
 ```
 //it supports  create ,update,get,remove/delete
+example:- use the queries like this
+$data = $request->all();
+Model::create($data);
 ```
 
 **Note**: This package only requires the configuration keys `database_url` and `secret`. The other keys are only necessary if you want to also use the firebase JS API. 
