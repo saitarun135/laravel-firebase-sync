@@ -11,14 +11,30 @@
 
 ## Installation
 laravel-version is **5**
+
 In order to add Laravel Firebase Sync to your project, just add
 
-    "mpociot/laravel-firebase-sync": "~1.0"
+    ```
+    "repositories": [
+        {
+            "type":"package",
+            "package": {
+              "name": "saitarun135/laravel-firebase-sync",
+              "version":"master",
+              "source": {
+                  "url": "https://github.com/saitarun135/laravel-firebase-sync",
+                  "type": "git",
+                  "reference":"master"
+                }
+            }
+        }
+    ],
+    "require": {
+        "saitarun135/laravel-firebase-sync": "master"
+    },
+    ```
 
-to your composer.json. Then run `composer install` or `composer update`.
-
-Or run `composer require mpociot/laravel-firebase-sync ` if you prefer that.
-
+to your composer.json. Then run `composer install` or `composer update` or `composer update --prefer-source`.
 
 <a name="usage" />
 
@@ -39,7 +55,6 @@ This package requires you to add the following section to your `config/services.
 ```
 ```
 //it supports  create ,update,get,remove/delete
-example:- use the queries like this
 $data = $request->all();
 Model::create($data);
 ```
