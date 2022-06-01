@@ -15,7 +15,7 @@
 <a name="installation" />
 
 ## Installation
-
+laravel-version is **5**
 In order to add Laravel Firebase Sync to your project, just add
 
     "mpociot/laravel-firebase-sync": "~1.0"
