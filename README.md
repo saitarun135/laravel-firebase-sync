@@ -72,6 +72,3 @@ If you need more control over the data that gets synchronized with Firebase, you
 
 <a name="license" />
 
-## License
-
-Laravel Firebase Sync is free software distributed under the terms of the MIT license.
