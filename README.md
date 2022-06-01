@@ -39,7 +39,11 @@ to your composer.json. Then run `composer install` or `composer update` or `comp
 <a name="usage" />
 
 ## Usage
-
+```
+//it supports  create ,update,get,remove/delete
+$data = $request->all();
+Model::create($data);
+```
 ### Configuration
 
 This package requires you to add the following section to your `config/services.php` file:
@@ -52,11 +56,6 @@ This package requires you to add the following section to your `config/services.
     'secret' => 'DATABASE_SECRET',
     'storage_bucket' => 'STORAGE_BUCKET', // Only used for JS integration
 ]
-```
-```
-//it supports  create ,update,get,remove/delete
-$data = $request->all();
-Model::create($data);
 ```
 
 **Note**: This package only requires the configuration keys `database_url` and `secret`. The other keys are only necessary if you want to also use the firebase JS API. 
